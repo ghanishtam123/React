@@ -7,13 +7,13 @@
 
     return {
         increment: function() {
-            return ++current;   // increase then return
+            return ++current;   
         },
         decrement: function() {
-            return --current;   // decrease then return
+            return --current;   
         },
         reset: function() {
-            current = init;     // reset to initial value
+            current = init;     
             return current;
         }
     };
